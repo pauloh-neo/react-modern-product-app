@@ -2,6 +2,7 @@ import amplifyInsights from '../assets/benefitsImgs/amplifyInsights.png'
 import globalPresence from '../assets/benefitsImgs/globalPresence.png'
 import languageBarries from '../assets/benefitsImgs/languageBarries.png'
 import visualizeGrowth from '../assets/benefitsImgs/visualizeGrowth.png'
+import heroImg2 from '../assets/heroImg2.png'
 
 export function Benefits(){
     return(
@@ -11,7 +12,7 @@ export function Benefits(){
                 <p className="flex  text-5xl text-black">We’ve cracked the code.</p>
                 <p className="text-[18px] text-[#6F6F6F]">Area provides real insights, without the data overload.</p>
             </div>
-            <ul className="mt-12.5 border-t-2 border-[#E9E9E9]">
+            <ul className="flex flex-col gap-5 mt-12.5 mb-15 border-t-2 border-[#E9E9E9]">
                 <li className='pt-10 pr-5 pb-10 pl-0'>
                     <img src={amplifyInsights} alt="" />
                     <div className='flex flex-col gap-5 mt-6'>
@@ -40,6 +41,7 @@ export function Benefits(){
                         <p className='text-[15px] text-[#6F6F6F]'>Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
                     </div>
                 </li>
+                <img src={heroImg2} alt="" />
             </ul>
         </section>
     )
