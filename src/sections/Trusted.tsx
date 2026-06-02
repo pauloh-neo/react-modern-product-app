@@ -7,7 +7,7 @@ import logo6 from '../assets/logos/Logo-6.png'
 
 export function Trusted(){
     return(
-        <section className="flex flex-col p-4">
+        <section className="flex flex-col px-4 py-12.5">
             <p className="text-[15px] font-normal text-[#6F6F6F]">Trusted by:</p>
             <ul className='grid grid-cols-2 mt-7.5 gap-10'>
                 <li className='p-5'>
