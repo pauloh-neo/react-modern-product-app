@@ -27,7 +27,7 @@ export function BigPicture(){
             {/* <span className="flex border border-[#6F6F6F]"></span> */}
             <section className="px-8 pt-15 pb-10 border-t border-[#E9E9E9]">
                 <div className="flex flex-col gap-10">
-                    <p className="text-black text-6xl">See the Big Picture</p>
+                    <h3 className="text-black text-6xl">See the Big picture</h3>
                     <p className="text-[#6F6F6F] text-[15px]">Area turns your data into clear, vibrant visuals that show you exactly what's happening in each region.</p>
                 </div>
                 <ul className="py-10">

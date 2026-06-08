@@ -1,6 +1,7 @@
 import { Benefits } from "../sections/Benefits";
 import { BigPicture } from "../sections/BigPicture";
 import { Hero } from "../sections/Hero";
+import { MapYourSuccess } from "../sections/MapYourSuccess";
 import { Trusted } from "../sections/Trusted";
 import { WhyChooseArea } from "../sections/WhyChooseArea";
 
@@ -12,6 +13,7 @@ export function Home(){
             <Benefits/>
             <BigPicture/>
             <WhyChooseArea/>
+            <MapYourSuccess/>
         </main>
     )
 }
