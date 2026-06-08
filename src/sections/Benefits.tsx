@@ -6,7 +6,7 @@ import heroImg2 from '../assets/heroImg2.png'
 
 export function Benefits(){
     return(
-        <section className="mt-20 px-4">
+        <section className="mt-20 mb-25 px-4">
             <div className="flex flex-col gap-7.5">
                 <h2 className="text-xs text-[#485C11]">Benefits</h2>
                 <p className="flex  text-5xl text-black">We’ve cracked the code.</p>
@@ -41,7 +41,7 @@ export function Benefits(){
                         <p className='text-[15px] text-[#6F6F6F]'>Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
                     </div>
                 </li>
-                <img src={heroImg2} alt="" />
+                <img className='' src={heroImg2} alt="" />
             </ul>
         </section>
     )
