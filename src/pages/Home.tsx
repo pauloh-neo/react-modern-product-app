@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import { Benefits } from "../sections/Benefits";
 import { BigPicture } from "../sections/BigPicture";
 import { Hero } from "../sections/Hero";
@@ -14,6 +15,7 @@ export function Home(){
             <BigPicture/>
             <WhyChooseArea/>
             <MapYourSuccess/>
+            <Footer/>
         </main>
     )
 }
