@@ -1,4 +1,5 @@
 import discoverImg from '../assets/discoverImg.png'
+import { Button } from '../components/Button'
 
 const DataFeatures = [
     {
@@ -39,7 +40,9 @@ export function BigPicture(){
                 </ul>
             </section>
             <section className='flex flex-col gap-20 px-8 mb-20'>
-                <button className='bg-[#DFECC6] text-black font-medium px-5.5 py-3.5 rounded-4xl w-fit'>Discover More</button>
+                <Button>
+                    Discover More
+                </Button>
                 <img src={discoverImg} alt="" />
             </section>
         </>
