@@ -12,7 +12,7 @@ export function Footer(){
                     Learn More
                 </button>
             </section>
-            <ul className='flex flex-col gap-4'>
+            <ul className='flex flex-col gap-4 md:flex-row md:gap-6.75'>
                 <li><a className='text-[14px] font-medium' href="">Benefits</a></li>
                 <li><a className='text-[14px] font-medium' href="">Specifications</a></li>
                 <li><a className='text-[14px] font-medium' href="">How-to</a></li>

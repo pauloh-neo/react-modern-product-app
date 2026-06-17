@@ -13,7 +13,7 @@ export function Benefits(){
                 <p className="flex  text-5xl text-black">We’ve cracked the code.</p>
                 <p className="text-[18px] text-[#6F6F6F]">Area provides real insights, without the data overload.</p>
             </div>
-            <ul className="flex flex-col gap-5 mb-15  md:grid md:grid-cols-2 pt-10">
+            <ul className="flex flex-col gap-5 mb-15  md:grid md:grid-cols-2 pt-10 lg:grid lg:grid-cols-4">
                 <li className='pt-10 pr-5 pb-10 pl-0 border-t-2 border-[#E9E9E9]'>
                     <img src={amplifyInsights} alt="" />
                     <div className='flex flex-col gap-5 mt-6'>

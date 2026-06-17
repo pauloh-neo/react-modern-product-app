@@ -8,7 +8,7 @@ export function Hero(){
      
         <section className="">
             <NavBar/>
-                <h1 className="mt-10.5 text-6xl font-normal leading-[90%] text-center md:text-8xl md:font-medium md:mb-20">Browse everything.</h1>
+                <h1 className="mt-10.5 text-6xl font-normal leading-[90%] text-center md:text-8xl md:font-medium md:mb-20 lg:text-9xl">Browse everything.</h1>
                 <img
                     src={mobile}
                     alt="Hero"
