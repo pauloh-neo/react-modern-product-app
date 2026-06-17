@@ -29,10 +29,30 @@ export function MapSuccessSlider() {
       perView: 2,
       spacing: 20,
     },
+    breakpoints: {
+      "(min-width: 640px)": {
+        slides: {
+          perView: 2,
+          spacing: 20,
+        },
+      },
+      "(min-width: 768px)": {
+        slides: {
+          perView: 3,
+          spacing: 20,
+        },
+      },
+      "(min-width: 1024px)": {
+        slides: {
+          perView: 4,
+          spacing: 20,
+        },
+      },
+    },
   })
   return (
     <div ref={ref} className="keen-slider mt-20 pl-4 mb-30.25 gap-5">
-          <div ref={ref} className="keen-slider pt-15 pr-8 pb-5">
+          <div className="keen-slider pt-15 pr-8 pb-5">
             {SuccessData.map((item) => (
                 <div
                 key={item.id}

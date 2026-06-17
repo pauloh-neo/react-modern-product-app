@@ -8,7 +8,7 @@ import { WhyChooseArea } from "../sections/WhyChooseArea";
 
 export function Home(){
     return(
-        <main className="h-screen bg-white">
+        <main className="h-screen bg-white md:px-10">
             <Hero/>
             <Trusted/>
             <Benefits/>

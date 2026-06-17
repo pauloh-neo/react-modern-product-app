@@ -2,18 +2,19 @@ import amplifyInsights from '../assets/benefitsImgs/amplifyInsights.png'
 import globalPresence from '../assets/benefitsImgs/globalPresence.png'
 import languageBarries from '../assets/benefitsImgs/languageBarries.png'
 import visualizeGrowth from '../assets/benefitsImgs/visualizeGrowth.png'
-import heroImg2 from '../assets/heroImg2.png'
+import mobile from '../assets/heroImg2.png'
+import tablet from '../assets/crackedCodeTablet.png'
 
 export function Benefits(){
     return(
-        <section className="mt-20 mb-25 px-4">
-            <div className="flex flex-col gap-7.5">
+        <section className="mt-20 px-4">
+            <div className="flex flex-col gap-7.5 mb-12.5">
                 <h2 className="text-xs text-[#485C11]">Benefits</h2>
                 <p className="flex  text-5xl text-black">We’ve cracked the code.</p>
                 <p className="text-[18px] text-[#6F6F6F]">Area provides real insights, without the data overload.</p>
             </div>
-            <ul className="flex flex-col gap-5 mt-12.5 mb-15 border-t-2 border-[#E9E9E9]">
-                <li className='pt-10 pr-5 pb-10 pl-0'>
+            <ul className="flex flex-col gap-5 mb-15  md:grid md:grid-cols-2 pt-10">
+                <li className='pt-10 pr-5 pb-10 pl-0 border-t-2 border-[#E9E9E9]'>
                     <img src={amplifyInsights} alt="" />
                     <div className='flex flex-col gap-5 mt-6'>
                         <p className='text-black text-[18px] font-medium'>Amplify Insights</p>
@@ -41,8 +42,20 @@ export function Benefits(){
                         <p className='text-[15px] text-[#6F6F6F]'>Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
                     </div>
                 </li>
-                <img className='' src={heroImg2} alt="" />
+                
             </ul>
+                <img
+                    src={mobile}
+                    alt="Hero"
+                    className="block md:hidden w-full h-auto object-cover"
+                />
+
+            {/* Tablet (768px - 1023px) */}
+                <img
+                    src={tablet}
+                    alt="Hero"
+                    className="hidden md:block lg:hidden w-full h-auto object-cover"
+                />
         </section>
     )
 }

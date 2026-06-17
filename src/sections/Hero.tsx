@@ -6,7 +6,7 @@ import desktop from '../assets/IpadDesktop.png'
 export function Hero(){
     return(
      
-        <section className="md:px-10">
+        <section className="">
             <NavBar/>
                 <h1 className="mt-10.5 text-6xl font-normal leading-[90%] text-center md:text-8xl md:font-medium md:mb-20">Browse everything.</h1>
                 <img
