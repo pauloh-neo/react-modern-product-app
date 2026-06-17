@@ -44,7 +44,7 @@ export function MapSuccessSlider() {
       },
       "(min-width: 1024px)": {
         slides: {
-          perView: 4,
+          perView: 3,
           spacing: 20,
         },
       },
